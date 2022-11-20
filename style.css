@@ -5,7 +5,13 @@
     border: 3px solid rgb(186, 255, 186);
     padding: 10px;
     text-align: center;
-    
+}
+
+.center-2 {
+    margin: auto;
+    width: 50%;
+    /* padding:10px; */
+    text-align: center;
 }
 
 .center_image {
