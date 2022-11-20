@@ -15,7 +15,7 @@ class WelcomeBack extends React.Component {
     return(
         //this is called fragment
         <>
-        <h2>Hello Friend! Welcome Back.</h2>
+        <h2>Hello {this.state.name || 'Friend'}! Welcome Back.</h2>
         <button>Download</button>
         </>
     )
