@@ -45,7 +45,7 @@
 
     <div>11/14/22</div>
     <body>
-        <p class="center-2">I have not updated this in a while! Over the weekend, I went to the Electrify Expo in Austin. It's essentnially a showcase
+        <p class>I have not updated this in a while! Over the weekend, I went to the Electrify Expo in Austin. It's essentnially a showcase
             of all the new electric vehicles that are coming out, whether that be cars, motorcycles, or even scooters. For me, the most interesting
             thing about it was how different EV's approached changing the design of original gasoline cars. For example, some cars replaced the engine
             bay under the hood with more storage, like a second trunk. Others simply got rid of the hood. 
@@ -64,29 +64,5 @@
     <script type="text/babel">
         ReactDOM.render(<WelcomeBack/>, document.querySelector('.welcome-back'))
     </script>
-
-    <!-- <script type="text/babel">
-        const e = React.createElement;
-        class LikeButton extends React.Component {
-            constructor(props) {
-                super(props);
-                this.state = { liked: false };
-            }
-
-            render() {
-                if (this.state.liked) {
-                    return 'You liked this.';
-                }
-
-                return e(
-                    'button',
-                    { onClick: () => this.setState({ liked: true }) },
-                    'Like'
-                );
-            }
-        }
-
-        const domContainer = document.querySelector('#like_button_container');
-        ReactDOM.render(e(LikeButton), domContainer); -->
 </body>
 </html> <!---->
